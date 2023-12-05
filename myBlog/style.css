@@ -1,0 +1,36 @@
+.navContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(max-width);
+  padding-left: var(gutter);
+  padding-right: var(gutter);
+  width: 100%;
+}
+
+img {
+  display: inline-block;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.ourStoryClass, .membershipClass, .writeClass, .signInClass {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+footer {
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
